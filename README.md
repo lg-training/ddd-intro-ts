@@ -15,11 +15,11 @@ For more information, check this pages https://lufgarciaqu.medium.com.
 
 # Using NodeJs 22 with Yarn 1.22.22
 
-[Support for Prisma] [2]
+[Support for Prisma] [5]
 
 ## Take a tour
 
-Vide reference [here][1].
+Vide reference [here][4].
 
 ## 🚀 Build project
 Using `makefile`
@@ -80,7 +80,11 @@ The MIT License (MIT). Please see [License][LIC] for more information.
 [0]: https://img.shields.io/badge/LgLabs-community-blue?style=flat-square
 [1]: https://lufgarciaqu.medium.com
 [2]: https://img.shields.io/badge/license-MIT-green?style=flat-square
-[4]: https://docs.gradle.org/current/userguide/userguide.html
+
+[3]: http://localhost:8080
+[4]: https://www.youtube.com/watch?v=f7Su4KoqSio&t=366s
+[5]: https://github.com/prisma/prisma/issues/25560#issuecomment-2462151407
+
 
 [LIC]: LICENSE
 
@@ -88,11 +92,4 @@ The MIT License (MIT). Please see [License][LIC] for more information.
 
 
 
-## Important: 
-Use Node 22, [Support for Prisma] [2]
-
-
-[1]: https://www.youtube.com/watch?v=f7Su4KoqSio&t=366s
-[2]: https://github.com/prisma/prisma/issues/25560#issuecomment-2462151407
-[3]: http://localhost:8080
 
