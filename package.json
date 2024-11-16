@@ -1,0 +1,22 @@
+{
+  "name": "lgt-ddd-intro-ts",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "Luis Fernando García Q... <105936384+lglabs@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.1"
+  }
+}

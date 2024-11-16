@@ -1,0 +1,23 @@
+### Send request with dynamic variables in request's body
+POST localhost:8080/logbooks
+Content-Type: application/json
+
+{
+ "name": "Names"
+}
+> {%
+    client.test("Request executed successfully", function () {
+        client.assert(response.status === 201, "Response status is not 201");
+        client.assert(response.body["id"] != null, "Response message is not valid");
+        client.global.set("id", response.body.id);
+    });
+%}
+
+### Get Logbook
+# @name Get Logbook
+GET localhost:8080/logbooks
+Content-Type: application/json
+
+{
+  "id": "{{id}}"
+}
