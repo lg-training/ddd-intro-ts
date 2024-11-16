@@ -15,7 +15,7 @@ For more information, check this pages https://lufgarciaqu.medium.com.
 
 # Using NodeJs 22 with Yarn 1.22.22
 
-[Support for Prisma] [5]
+[Support for Prisma][5]
 
 ## Take a tour
 
